@@ -1,3 +1,5 @@
+import * as ActionTypes from './ActionTypes'
+
 export const InitialFeedback = {
     firstname: '',
     lastname: '',
@@ -6,4 +8,4 @@ export const InitialFeedback = {
     agree: false,
     contactType: 'Tel.',
     message: ''
-}; 
+};
